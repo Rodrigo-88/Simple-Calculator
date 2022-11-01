@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin: 100px auto;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(156, 156, 247);
+    background-color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+background-color: rgb(93, 145, 113);
+}
+
+h3{
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.display{
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(79, 160, 133);
+}
+
+.display p {
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.touch{
+    display: grid;
+    justify-content: center;
+    padding:10px;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: repeat(5, 6vh);
+    grid-gap: 10px 10px;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.205);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clear{
+    background-color: rgba(165, 42, 42, 0.575);
+}
+
+.calc03{
+  grid-area: 5 / 2 / 5 / 4;  
+}
+
+.result{
+    grid-area: 4 / 4 / 6;
+}
+
+.number:hover{
+    background-color: rgb(255, 222, 172);
+    border-color: rgb(255, 222, 172);
+}
+
+
+
+
